@@ -9,17 +9,17 @@
 6. Start the app : npm run start:dev
 
 ## Call the 2 endpoint
-  **BaseUrl** : https://moni-wall.herokuapp.com/api/v1 or localhost:{your port}/api/v1
+**BaseUrl** : https://moni-wall.herokuapp.com/api/v1 or localhost:{your port}/api/v1
   
-  **Note** : The user with is : 1 has been seeded with the provided public and secret keys to perform the funding and transfer transactions.
+**Note** : The user with is : 1 has been seeded with the provided public and secret keys to perform the funding and transfer transactions.
   
-  1. Fund endpoint:
+1. Fund endpoint:
   
-  **URL**: {baseUrl}/transactions/fund
+**URL**: {baseUrl}/transactions/fund
   
-  **Payload** : 
+**Payload** : 
   
-     {
+    {
       "userId" : 1,
       "amount" : 10
     }
@@ -28,29 +28,26 @@
 
 2. Transfer endpoint:
 
-**URL**:  {baseUrl}/transactions/transfer
+**URL**: {baseUrl}/transactions/transfer
 
 **Payload**:
  
     {
     "senderId" : 1,
-    
     "amount" : 1.149,
-    
     "recipientId" : 2
-    
     }
 
 
 ## Content of env (feel free to costomize to your own environment)
 
 
-###PORT = 2000
+### PORT = 2000
 
-DB_URL=postgres://postgres:{password}/{dbname}
+### DB_URL=postgres://postgres:{password}/{dbname}
 
-AES_KEY = moniaes#09hyhyhy
+### AES_KEY = moniaes#09hyhyhy
 
-IV_KEY = moniiv#78hjhjhjh
+### IV_KEY = moniiv#78hjhjhjh
 
-PAYSTACK_URL = https://api.paystack.co/transaction/initialize
+### PAYSTACK_URL = https://api.paystack.co/transaction/initialize
