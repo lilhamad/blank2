@@ -9,11 +9,11 @@
 6. Start the app : npm run start:dev
 
 ## Call the 2 endpoint
-  ** BaseUrl** : https://moni-wall.herokuapp.com/api/v1 or localhost:{your port}/api/v1
-  ** Note ** : The user with is : 1 has been seeded with the provided public and secret keys to perform the funding and transfer transactions.
+  **BaseUrl** : https://moni-wall.herokuapp.com/api/v1 or localhost:{your port}/api/v1
+  **Note** : The user with is : 1 has been seeded with the provided public and secret keys to perform the funding and transfer transactions.
   1. Fund endpoint:
-  ** URL **: {baseUrl}/transactions/fund
-  ** Payload ** : 
+  **URL**: {baseUrl}/transactions/fund
+  **Payload** : 
   pass {
       "userId" : 1,
       "amount" : 10
