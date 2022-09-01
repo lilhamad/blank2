@@ -19,13 +19,10 @@
   
   **Payload** : 
   
-  pass {
-  
+     {
       "userId" : 1,
-      
       "amount" : 10
-      
-  }
+    }
 
 
 
@@ -35,15 +32,20 @@
 
 **Payload**:
  
-{
+    {
     "senderId" : 1,
+    
     "amount" : 1.149,
+    
     "recipientId" : 2
-}
+    
+    }
+
 
 ## Content of env (feel free to costomize to your own environment)
 
-PORT = 2000
+
+###PORT = 2000
 
 DB_URL=postgres://postgres:{password}/{dbname}
 
