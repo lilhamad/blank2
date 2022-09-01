@@ -2,11 +2,17 @@
 
 ## Steps to run the app
 **1. Clone** the repo
+
 **2. run :** npm install
-**3. Create a new .env file, paste the .env content at the bottom of the readme and modifty to your taste.
+
+3. Create a new .env file, paste the .env content at the bottom of the readme and modifty to your taste.
+
 **4. Migrate to db :** npm run migrate
+
 **5. Seed the db :** npm run seed
+
 **6. Start the app :** npm run start:dev
+
 
 ## Call the 2 endpoint
 **BaseUrl** : https://moni-wall.herokuapp.com/api/v1 or localhost:{your port}/api/v1
