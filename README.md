@@ -13,7 +13,7 @@
   
 **Note** : The user with is : 1 has been seeded with the provided public and secret keys to perform the funding and transfer transactions.
   
-1. Fund endpoint:
+**1. Fund endpoint:**
   
 **URL**: {baseUrl}/transactions/fund
   
@@ -26,7 +26,7 @@
 
 
 
-2. Transfer endpoint:
+**2. Transfer endpoint:**
 
 **URL**: {baseUrl}/transactions/transfer
 
